@@ -1,0 +1,41 @@
+*{
+    overflow: hidden;
+}
+body {
+    border: 5px solid black;
+    position: relative;
+}
+
+.costado-izquierdo{
+    background-color: blue;
+    height: 640px;
+    width: 200px;
+    position: absolute;
+    border: 5px solid black;
+}
+
+.costado-derecho-1{
+    background-color: blueviolet;
+    height: 640px;
+    border: 5px solid black;
+    position: relative;
+    margin-left: 200px;
+}
+
+.costado-derecho-2{
+    background-color: red;
+    width: 600px;
+    height: 100px;
+    position: relative;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.costado-derecho-3{
+    background-color: greenyellow;
+    width: 600px;
+    height: 100px;
+    position: relative;
+    border: 3px solid black;
+}
+
